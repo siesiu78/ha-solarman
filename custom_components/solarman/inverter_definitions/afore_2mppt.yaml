@@ -101,7 +101,7 @@ parameters:
         friendly_name: Today's Production
         class: "energy"
         state_class: "total_increasing"
-        uom: "Wh"
+        uom: "kWh"
         scale: 0.1
         rule: 1
         registers: [0x03E8]
@@ -113,7 +113,7 @@ parameters:
       - name: "Total Production"
         class: "energy"
         state_class: "total_increasing"
-        uom: "Wh"
+        uom: "kWh"
         scale: 0.1
         rule: 1
         registers: [0x03F7, 0x03F6]
